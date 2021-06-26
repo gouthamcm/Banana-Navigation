@@ -18,3 +18,13 @@ Step 2. Download the Unity Environment
 * Windows (64-bit): [click here!](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+# Working
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+* 0-move forward
+* 1-move backward
+* 2-turn left
+* 3-turn right
+
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
