@@ -39,7 +39,8 @@ The architecture of the model is too simple, it's has an **input layer**, two **
 
 # 4.Hyperparameters
 
-```Replay buffer size = 1e5
+```
+Replay buffer size = 1e5
 discount rate = 0.99
 learning rate = 5e-4
 Target model update frequency : 4 time steps
@@ -70,7 +71,8 @@ The above model is defined using Pytorch.
 Agent has been trained for over 500 episodes to obtain an average reward of 13.0
 Output of the training is shown below and at **526th** episode, the training got completed.
 
-```Episode 100	Average Score: 1.08
+```
+Episode 100	Average Score: 1.08
 Episode 200	Average Score: 4.96
 Episode 300	Average Score: 7.12
 Episode 400	Average Score: 10.42
