@@ -39,7 +39,7 @@ The architecture of the model is too simple, it's has an **input layer**, two **
 
 # 4.Hyperparameters
 
-`Replay buffer size = 1e5
+```Replay buffer size = 1e5
 discount rate = 0.99
 learning rate = 5e-4
 Target model update frequency : 4 time steps
@@ -51,7 +51,8 @@ Epsilion decay rate = 0.995
 TAU = 1e-3
 Batch Size = 64
 Optimizer = Adam
-Loss = MSE`
+Loss = MSE
+```
 
 Network Architecture:
 
@@ -67,14 +68,16 @@ The above model is defined using Pytorch.
 ![Training Results](https://github.com/gouthamcm/Banana-Navigation/blob/main/Training%20results.png)
 
 Agent has been trained for over 500 episodes to obtain an average reward of 13.0
+Output of the training is shown below and at **526th** episode, the training got completed.
 
-`Episode 100	Average Score: 1.08
+```Episode 100	Average Score: 1.08
 Episode 200	Average Score: 4.96
 Episode 300	Average Score: 7.12
 Episode 400	Average Score: 10.42
 Episode 500	Average Score: 11.98
 Episode 526	Average Score: 13.03
-Environment solved in 526 episodes!	Average Score: 13.03`
+Environment solved in 526 episodes!	Average Score: 13.03
+```
 
 # 6. Testing the Agent
 
