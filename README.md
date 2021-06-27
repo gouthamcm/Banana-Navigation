@@ -28,3 +28,13 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 * 3-turn right
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
+# Instructions to run the code
+
+**Module Description**
+
+`model.py` - defines the Q architecture
+`dqn_agent.py` - defines the DQN Agent
+
+Open the jupyter notebook `Navigation.ipynb` and run the cells for the successful training of the agent. The code is well documented.
+Make sure `model.py` and `dqn_agent.py` are also in the same directory.
